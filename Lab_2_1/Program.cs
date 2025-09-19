@@ -49,7 +49,7 @@ namespace Lab_2_1
             for (int i = 0; i < n; i++)
             {
                 int numOfIterations = -1;
-                for (int j = 0; j < n; j++)
+                for (int j = n-1; j >= 0; j--)
                 {
                     if (matrix[i][j] < 0)
                     {
